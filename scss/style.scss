@@ -1,2 +1,116 @@
+// overlay
+.container {
+  width:100%;
+  padding: 0;
+}
 
+body {
+  height:100%;
+}
 
+.body-content {
+  margin-left:15em;
+  margin-top: 0.1em;
+  width: 85%;
+  -webkit-transition: margin-left 0.3s linear;
+  -moz-transition: margin-left 0.3s linear;
+  -o-transition: margin-left 0.3s linear;
+  transition: margin-left 0.3s linear;
+}
+
+header {
+  padding: 0.7em;
+  background-color: gray;
+  color:white;
+  font-size:large;
+  a {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+      color:pink;
+    }
+  }
+}
+
+//left navigation
+
+.pdsa-sn-wrapper {
+  position: absolute;
+  //top: 3.6em;
+  left: 0;
+  width: 13em;
+  height: auto;
+  min-height: 100%;
+  height:100vh;
+  background-color: black;
+  -webkit-transition: left 0.3s linear;
+  -moz-transition: left 0.3s linear;
+  -o-transition: left 0.3s linear;
+  transition: left 0.3s linear;
+  ul {
+    width: 11em;
+    //margin-top:0em;
+    //margin-left:0em;
+    padding:0;
+  }
+  li {
+    margin-top:1em;
+    margin-bottom:1em;
+    list-style: none;
+    a {
+      font-size:1.2em;
+      color: #999999;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: none;
+        color: #fff;
+      }
+      &:active, &:focus {
+        text-decoration: none;
+        outline: none;
+        color:yellow;
+      }
+    }
+  }
+}
+
+.pdsa-sn-brand {
+  margin-left: -0.5em;
+  font-size: large;
+  color: white;
+}
+
+li span {
+  color:pink;
+}
+//
+//.pdsa-sn-brand a {
+//  color: white;
+//}
+//
+//.pdsa-sn-brand a:hover {
+//  color: lightblue;
+//  background: none;
+//}
+
+@media all and (max-width:768px) {
+  .pdsa-sn-wrapper {
+    left: -10em;
+  }
+  .pdsa-sn-wrapper a span {
+    padding-left:6.5em;
+    margin-top:0;
+    margin-bottom:0;
+  }
+  .pdsa-sn-wrappe li {
+    margin:0;
+  }
+
+  .body-content {
+    margin:3em;
+  }
+
+}
