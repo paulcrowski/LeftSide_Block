@@ -17,7 +17,7 @@
         <a href="index.html">My Tunes</a>
     </header>
 
-    <nav>
+    <nav id="sideNavParent">
         <ul class="pdsa-sn-wrapper">
             <li>
                 <a href="#">
@@ -28,9 +28,17 @@
 
             </li>
             <li>
-                <a href="#"><span class="visible-sm visible-md visible-lg">Search</span>
+                <a href="#" data-toggle="collapse" data-target="#ulSearch"><span class="visible-sm visible-md visible-lg">Search&nbsp;<b class="caret"></b></span>
                 <span class="glyphicon glyphicon-search  visible-xs" aria-hidden="true"></span>
                 </a>
+                <div class="visible-sm visible-md visible-lg">
+                <ul id="ulSearch" class="collapse" data-parent="#sideNavParent">
+                    <li><a href="#">Paul</a></li>
+                    <li><a href="#">Paul</a></li>
+                    <li><a href="#">Paul</a></li>
+                    <li><a href="#">Paul</a></li>
+                </ul>
+                </div>
             </li>
 
             <li>
@@ -55,54 +63,34 @@
 
 <div class="container body-content">
     <div class="row">
-        <div class="col-xs-12 col-lg-12">
-            <h1>My Music WOrld</h1>
-            <p>hey my music</p>
+        <!--summery blocks!!!!!!-->
+        <div class="col-xs-12 col-sm-4">
+            <div class="pdsa-summary-block">
+                <div class="summary-background">
+                    <span class="glyphicon glyphicon-globe"></span>
+                </div>
+                <div class="summary-body">
+                    <div class="summary-line-1">14</div>
+                    <div class="summary-line-2">Promotions</div>
+                </div>
+                <a href="#" class="summary-footer">
+
+                    View it! <span class="glyphicon glyphicon-chevron-right"></span>
+
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
 
         </div>
-        <div class="col-md-12">
-            <p>
+    </div>
+    <div class="row">
+        <!--summery blocks!!!!!!-->
+        <div class="col-xs-12 col-sm-4">
 
-            Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-        </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
+        </div>
+        <div class="col-xs-12 col-sm-4">
 
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
-            <p>
-                Lorem ipsum dolor sit amet, nunc mauris. At fames risus proin egestas odio. Nec massa, donec amet non, ornare nulla massa sed nec aliquam. Nostra odio dolor enim, justo aliquam conubia fermentum suspendisse ut. Suscipit sit viverra eu aenean turpis, bibendum nascetur. Pellentesque inceptos lectus orci, mollis sed commodo pellentesque, sodales vel ut sit eu, quo eu purus consequat senectus ut, interdum metus enim erat. Tristique lacinia eros integer sollicitudin aliquam, in pulvinar integer sagittis, elementum scelerisque lectus reprehenderit nibh etiam.
-            </p>
         </div>
     </div>
 </div>
@@ -110,6 +98,7 @@
 <!--Jquery, JS Bootstrap, App-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="js/lazy/uv.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>
