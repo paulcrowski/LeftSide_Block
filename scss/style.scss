@@ -139,16 +139,74 @@ li span {
 
 // ############################### SUmmery blocks
 
+// colors primary
+.pdsa-summary-block-primary {
+  background-color: #428bca;
+  color: #fff;
+}
 
+.pdsa-summary-block-primary .summary-footer {
+  background: blue;
+  color:white;
+}
 
+.pdsa-summary-block-primary .summary-footer a {
+  color:white;
+}
+
+// colors secondary
+.pdsa-summary-block-success {
+  background-color: #3c763d;
+  color: #fff;
+}
+
+.pdsa-summary-block-success .summary-footer {
+  background: green;
+  color:white;
+}
+
+.pdsa-summary-block-success .summary-footer a {
+  color:white;
+}
+
+// colors third
+.pdsa-summary-block-info {
+  background-color: coral;
+  color: #fff;
+}
+
+.pdsa-summary-block-info .summary-footer {
+  background: palevioletred;
+  color:white;
+}
+
+.pdsa-summary-block-info .summary-footer a {
+  color:white;
+}
+
+// colors danger
+.pdsa-summary-block-danger {
+  background-color: lightpink;
+  color: #fff;
+}
+
+.pdsa-summary-block-danger .summary-footer {
+  background: deeppink;
+  color:white;
+}
+
+.pdsa-summary-block-danger .summary-footer a {
+  color:white;
+}
+// structure
 .pdsa-summary-block {
   position: relative;
   width:100%;
   margin:0.3em;
   padding:1em;
   min-height:15em;
-  background-color: #428bca;
-  color: #fff;
+  overflow: hidden;
+
 }
 
 .pdsa-summary-block .summary-background span,
@@ -175,7 +233,7 @@ li span {
 
 .pdsa-summary-block .summary-footer {
   position: absolute;
-  background: blue;
+
   bottom:0;
   right:0;
   width:100%;
@@ -184,7 +242,7 @@ li span {
   text-transform: uppercase;
   font-size:small;
   opacity:0.6;
-  color:white;
+
   //-webkit-transition: prop time;
   //-moz-transition: prop time;
   //-ms-transition: prop time;
