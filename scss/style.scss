@@ -10,6 +10,10 @@ body {
   height:100%;
 }
 
+.notransition * {
+  transition: none !important;
+}
+
 .body-content {
   margin-left:15em;
   margin-top: 0.1em;
@@ -254,6 +258,97 @@ li span {
   }
 }
 
+//readme box #################################
+
+
+.pdsa-readme-box-primary {
+  border-color: #428bca;
+}
+
+.pdsa-readme-box-primary .readme-header {
+  background: mediumaquamarine;
+}
+
+.pdsa-readme-box-primary .readme-footer a {
+  color: red;
+}
+
+.pdsa-readme-box-success {
+  border-color: #3c763d;
+}
+
+.pdsa-readme-box-success .readme-header {
+  background: green;
+}
+
+.pdsa-readme-box-success .readme-footer a {
+  color: red;
+}
+
+
+.pdsa-readme-box {
+  position: relative;
+  border: thin;
+  border-style: solid;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 1em;
+  opacity: 0.9;
+  margin: 0.3em;
+  &:hover {
+    opacity: 1;
+  }
+  .readme-header {
+    margin: -1em;
+    padding: 0.5em;
+
+    text-align: center;
+    span, div {
+      font-size: xx-large;
+    }
+  }
+  .readme-body {
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    h1 {
+      font-size: x-large;
+    }
+    p {
+      font-size: medium;
+    }
+  }
+
+  .readme-footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0.5em;
+    font-size: small;
+    a {
+      font-size: medium;
+      color: red;
+      text-decoration: none;
+    }
+  }
+}//readme-box
+
+
+// checkboxes  ######################################
+
+.checkbox .btn,
+.checkbox-inline .btn {
+  padding-left:2em;
+  min-width:7em;
+}
+.checkbox-inline {
+  margin-left:-1.5em;
+}
+//.checkbox label, .checkbox-inline label {
+//  text-align: left;
+//}
 
 
 
