@@ -35,7 +35,16 @@ $(document).ready(function () {
                 .addClass('glyphicon-unchecked');
         }
     });
-    $(this).prev()
-        .removeClass('glyphicon-ok-circle')
-        .addClass('glyphicon-unchecked');
+
+    // if input checked
+
+    $("input:checked").prev()
+        .removeClass('glyphicon-unchecked')
+        .addClass('glyphicon-ok-circle');
+
+    // button acitve if input cheked
+    $("input:checked").parent()
+        .addClass('active');
+
+
 });
